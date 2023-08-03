@@ -1,0 +1,20 @@
+@media all and (max-width: 767px) {
+  .prg-xs-01 {
+    font-weight: 600;
+    font-size: 1.25em;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: #0A242C;
+  }
+}
+@media all and (min-width: 768px) {
+  .prg-lg-01 {
+    font-weight: 600;
+    font-size: 2.75em;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    color: #0A242C;
+  }
+}
+
+/*# sourceMappingURL=Paragraph.css.map */

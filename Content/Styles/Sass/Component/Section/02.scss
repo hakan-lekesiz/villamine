@@ -1,0 +1,316 @@
+﻿@import "../../Base/Colour.scss";
+@import "../../Base/Global.scss";
+
+
+
+.section-02 {
+    padding: 70px 0;
+
+    .c-wrapper {
+
+
+        .c-container-01 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 35px;
+            line-height: 43px;
+            color: #FFFFFF;
+            text-align: center;
+            padding-bottom: 32px;
+            margin-bottom: 34px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .c-container-02 {
+            .c-item-01 {
+                display: flex;
+                align-items: center;
+                margin-bottom: 45px;
+
+                a {
+                    margin-right: 32px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 23px;
+                    color: #FFFFFF;
+                    opacity: 0.5;
+                    padding-bottom: 9px;
+
+                    &.on {
+                        opacity: 1;
+
+                        &:after {
+                            content: "";
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            right: 0;
+                            height: 2px;
+                            background: #FFFFFF;
+                        }
+                    }
+                }
+
+                > :last-child {
+                    margin-right: 0;
+                }
+            }
+
+            .c-item-02 {
+                .c-item-02-A {
+
+                    .c-tab-wrapper {
+                        display: flex;
+                        flex-wrap: wrap;
+
+
+                        .c-unit-01 {
+                            display: flex;
+                            flex-direction: column;
+                            width: calc(20% - 24px);
+                            margin: 0 30px 30px 0;
+
+                            img {
+                                width: 100%;
+                                height: 283px;
+                                object-fit: cover;
+                            }
+
+                            .c-unit-01-B {
+                                margin-top: 12px;
+                                display: flex;
+                                flex-direction: column;
+
+                                .c-desc-01 {
+                                    font-family: 'Oriya MN';
+                                    margin-bottom: 2px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 25px;
+                                    line-height: 30px;
+                                    color: #FFFFFF;
+                                }
+
+                                .c-desc-02 {
+                                    font-family: 'Gilroy';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 19px;
+                                    /* identical to box height */
+
+
+                                    color: #FFFFFF;
+                                    opacity: 0.7;
+                                }
+                            }
+                        }
+
+                        > :nth-child(5n) {
+                            margin-right: 0;
+                        }
+                    }
+
+                    &:not(.active) {
+                        width: 100%;
+                        height: 0;
+                        overflow: hidden;
+                        opacity: 0;
+                        -webkit-transition: opacity .0s .2s ease-in-out,height .2s .2s;
+                    }
+
+                    &.active {
+                        position: relative;
+                        width: 100%;
+                        opacity: 1;
+                        -webkit-transition: height .2s .0s ease-in-out,opacity .4s .2s;
+                    }
+                }
+            }
+        }
+
+        .c-container-03 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .c-item-01 {
+                display: flex;
+                align-items: center;
+                height: 40px;
+                padding: 0 45px;
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                /* identical to box height */
+
+                text-transform: uppercase;
+                color: #FFFFFF;
+                opacity: 0.5;
+                margin-right: 15px;
+                border: 1px solid rgba(255, 255, 255, 0.5);
+                transition: all .2s ease;
+
+                &:hover {
+                    border-color: #886E46;
+                    opacity: 1;
+                }
+            }
+
+            > :last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+    /* Common xs1, xs2 */
+    @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+        .section-02 {
+            padding: 36px 0 60px 0;
+
+            .c-wrapper {
+
+
+                .c-container-01 {
+                    font-size: 25px;
+                    line-height: 30px;
+                }
+
+                .c-container-02 {
+
+                    .c-item-01 {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 45px;
+                        width: calc(100% + 40px);
+                        overflow: auto;
+                        margin-left: -20px;
+                        padding: 0 20px 5px 20px;
+
+                        a {
+                            margin-right: 20px;
+                            font-size: 15px;
+                            line-height: 17px;
+                            flex-shrink: 0;
+
+
+                            &.on {
+                                opacity: 1;
+
+                                &:after {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+
+                    .c-item-02 {
+                        .c-item-02-A {
+
+                            .c-tab-wrapper {
+
+
+
+                                .c-unit-01 {
+                                    width: 100%;
+                                    margin: 0 0 30px 0;
+
+                                    img {
+                                        height: 374px;
+                                    }
+
+                                    .c-unit-01-B {
+                                        margin-top: 12px;
+                                        display: flex;
+                                        flex-direction: column;
+
+                                        .c-desc-01 {
+                                            font-family: 'Oriya MN';
+                                            margin-bottom: 2px;
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            font-size: 25px;
+                                            line-height: 30px;
+                                            color: #FFFFFF;
+                                        }
+
+                                        .c-desc-02 {
+                                            font-family: 'Gilroy';
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            font-size: 16px;
+                                            line-height: 19px;
+                                            /* identical to box height */
+
+
+                                            color: #FFFFFF;
+                                            opacity: 0.7;
+                                        }
+                                    }
+                                }
+
+                                > :nth-child(5n) {
+                                    margin-right: 0;
+                                }
+                            }
+
+                            &:not(.active) {
+                                width: 100%;
+                                height: 0;
+                                overflow: hidden;
+                                opacity: 0;
+                                -webkit-transition: opacity .0s .2s ease-in-out,height .2s .2s;
+                            }
+
+                            &.active {
+                                position: relative;
+                                width: 100%;
+                                opacity: 1;
+                                -webkit-transition: height .2s .0s ease-in-out,opacity .4s .2s;
+                            }
+                        }
+                    }
+                }
+
+                .c-container-03 {
+                    flex-wrap: wrap;
+
+                    .c-item-01 {
+                        display: flex;
+                        align-items: center;
+                        height: 40px;
+                        padding: 0;
+                        width: 100%;
+                        font-family: 'Gilroy';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        /* identical to box height */
+
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                        justify-content: center;
+                        opacity: 0.5;
+                        margin-right: 0;
+                        margin-bottom: 15px;
+                        border: 1px solid rgba(255, 255, 255, 0.5);
+                    }
+
+                    > :last-child {
+                        margin-right: 0;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+    /* Common sm, md, lg */
+    @media all and (min-width: #{$mq-sm1 + "px"}) {
+    }
+
+    @media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+    }

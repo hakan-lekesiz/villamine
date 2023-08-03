@@ -1,0 +1,275 @@
+﻿@import "../../Base/Colour.scss";
+@import "../../Base/Global.scss";
+
+@mixin placeholder {
+    ::-webkit-input-placeholder {
+        @content
+    }
+
+    :-moz-placeholder {
+        @content
+    }
+
+    ::-moz-placeholder {
+        @content
+    }
+
+    :-ms-input-placeholder {
+        @content
+    }
+}
+
+.section-05 {
+    padding-bottom: 90px;
+
+    .c-wrapper {
+        .c-container-01 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .c-item-01 {
+                font-family: 'Oriya MN';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 40px;
+                line-height: 49px;
+                /* identical to box height */
+
+
+                color: #FFFFFF;
+            }
+
+            .c-item-02 {
+                margin: 20px 0;
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 23px;
+                color: #FFFFFF;
+            }
+
+            .c-item-03 {
+                width: 768px;
+                height: 1px;
+                background: rgba(255, 255, 255, 0.3);
+            }
+        }
+
+        .c-container-02 {
+            display: flex;
+            align-items: center;
+            height: 55px;
+            margin-top: 26px;
+            justify-content: center;
+
+            .c-item-01 {
+                width: 371px;
+                height: 55px;
+                padding-left: 20px;
+                border: 1px solid rgba(255, 255, 255, 0.5);
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                /* identical to box height */
+                color: #FFFFFF;
+                background-color: transparent;
+
+                @include placeholder {
+                    font-family: 'Gilroy';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    /* identical to box height */
+                    color: #FFFFFF;
+                    opacity: 0.5;
+                }
+            }
+
+            .c-item-02 {
+                width: 255px;
+                height: 55px;
+                background: #FFFFFF;
+                border: 1px solid rgba(255, 255, 255, 0.5);
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
+                /* identical to box height */
+
+                text-transform: uppercase;
+                color: #191919;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        .c-container-03 {
+            margin-top: 100px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+            padding-bottom: 36px;
+            display: flex;
+            justify-content: center;
+
+            .c-item-01 {
+                font-family: 'Oriya MN';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 40px;
+                line-height: 49px;
+                /* identical to box height */
+
+
+                color: #FFFFFF;
+            }
+        }
+
+        .c-container-04 {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            padding: 44px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+
+            .c-item-01 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-right: 130px;
+
+                span {
+                    width: 117px;
+                    display: flex;
+                    margin-top: 22px;
+                    font-family: 'Gilroy';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+            }
+
+            > :last-child {
+                margin-right: 0;
+            }
+        }
+
+        .c-container-05 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 32px;
+
+        
+
+            .mob {
+                display:none;
+            }
+
+            .c-item-01 {
+                margin-right: 12px;
+            }
+
+            > :last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+/* Common xs1, xs2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+
+    .section-05 {
+        padding-bottom: 40px;
+
+        .c-wrapper {
+            .c-container-01 {
+
+                .c-item-01 {
+                    font-size: 25px;
+                    line-height: 30px;
+                }
+
+                .c-item-02 {
+                    margin: 20px 0;
+                    font-size: 15px;
+                    line-height: 17px;
+                    text-align: center;
+                }
+
+                .c-item-03 {
+                    width: calc(100% - 40px);
+                    margin-left: -20px;
+                }
+            }
+
+            .c-container-02 {
+
+                .c-item-01 {
+                    width: 70%;
+                }
+
+                .c-item-02 {
+                    width: 30%;
+                }
+            }
+
+            .c-container-03 {
+                margin-top: 50px;
+
+                .c-item-01 {
+                    font-size: 25px;
+                    line-height: 30px;
+                }
+            }
+
+            .c-container-04 {
+
+                .c-item-01 {
+                    margin-right: 20px;
+                    width: calc(30% - 12px);
+
+                    span {
+                        width: auto;
+                        font-size: 13px;
+                        line-height: 15px;
+                    }
+                }
+
+                > :last-child {
+                    margin-right: 0;
+                }
+            }
+
+            .c-container-05 {
+                .mob {
+                    display: block;
+                }
+
+                .desk {
+                    display: none;
+                }
+
+                .c-item-01 {
+                    margin-right: 6px;
+                }
+            }
+        }
+    }
+}
+
+/* Common sm, md, lg */
+@media all and (min-width: #{$mq-sm1 + "px"}) {
+  
+}
+ 

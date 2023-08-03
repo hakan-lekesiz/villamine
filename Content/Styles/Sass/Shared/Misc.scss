@@ -1,0 +1,87 @@
+@import "../Base/Colour.scss";
+@import "../Base/Global.scss";
+ 
+[data-expand] {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    @include dynamicTransition(height 0.4s ease-in-out, opacity 0.3s);
+
+    &.on {
+        opacity: 1;
+        @include dynamicTransition(height 0.4s ease-in-out, opacity 1s);
+    }
+
+    &.init-on {
+        opacity: 1;
+        height: auto;
+    }
+}
+ 
+#contentContainer {
+    #expandedContentContainer {
+        display: none;
+    }
+
+    #shrinkContentBtn {
+        display: none;
+    }
+
+    &.on {
+        #expandedContentContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #shrinkContentBtn {
+            display: block;
+        }
+
+        #expandContentBtn {
+            display: none;
+        }
+    }
+}
+ 
+.bg-primary {
+    background-color: $neutral-050;
+}
+
+
+.infinitive-scale-anim-01 {
+    -webkit-animation: scaleAnim 3s ease-in-out infinite;
+    animation: scaleAnim 3s ease-in-out infinite;
+}
+
+@keyframes scaleAnim {
+    0% {
+        transform: scale(1);
+    }
+
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}){
+    .daterangepicker.show-calendar .drp-calendar.right {
+        display: none !important;
+    }
+}
+
+body.noscroll {
+    header {
+        #action-container {
+            > .c-item-01 {
+                display: none !important;
+            }
+        }
+    }
+}

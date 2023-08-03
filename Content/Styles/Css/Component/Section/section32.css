@@ -1,0 +1,38 @@
+.comp-section-32 {
+  display: flex;
+  margin-bottom: 60px;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 12px;
+}
+.comp-section-32 .c-container-01 {
+  padding: 0 20px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+.comp-section-32 .c-container-02 {
+  max-width: 800px;
+  padding: 0 32px;
+  margin: 22px 0;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.875em;
+  line-height: 18px;
+  text-align: center;
+  color: #80837D;
+}
+.comp-section-32 .c-container-03 {
+  width: 100%;
+}
+.comp-section-32 .c-container-03 img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=section32.css.map */

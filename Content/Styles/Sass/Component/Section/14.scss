@@ -1,0 +1,45 @@
+﻿@import "../../Base/Colour.scss";
+@import "../../Base/Global.scss";
+
+
+/* Common xs1, xs2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .section-14 {
+        .c-wrapper {
+            width: 100%;
+
+            .c-item-01-C {
+                 
+                .c-unit-02 {
+                    width: calc(100% + 48px);
+                    margin: 0 -24px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: #282828;
+                    height: 55px;
+
+                    a {
+                        &:not(:last-child) {
+                            margin-right: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* Common sm, md, lg */
+@media all and (min-width: #{$mq-sm1 + "px"}) {
+    .section-14 {
+        .c-wrapper {
+            display: flex;
+            justify-content: center;
+            padding: 136px 0 176px 0;
+
+            .c-item-01-C {
+                display:none;
+            }
+        }
+    }
+}

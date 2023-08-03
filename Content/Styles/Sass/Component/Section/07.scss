@@ -1,0 +1,144 @@
+﻿@import "../../Base/Colour.scss";
+@import "../../Base/Global.scss";
+
+.section-07 {
+    opacity: 1;
+    height: auto;
+    min-height: 800px;
+    transition: all .2s ease-in-out;
+
+    &.off {
+        opacity: 0;
+        height: 0;
+        min-height: 0;
+        overflow: hidden;
+        transition: all .2s ease-in-out;
+    }
+
+    .c-container-02 {
+        .c-item-02 {
+            display: flex;
+            flex-wrap: wrap;
+
+            .c-unit-01 {
+                display: flex;
+                flex-direction: column;
+                width: calc(20% - 24px);
+                margin: 0 30px 30px 0;
+
+                img {
+                    width: 100%;
+                    height: 283px;
+                    object-fit: cover;
+                }
+
+                .c-unit-01-B {
+                    margin-top: 12px;
+                    display: flex;
+                    flex-direction: column;
+
+                    .c-desc-01 {
+                        font-family: 'Oriya MN';
+                        margin-bottom: 2px;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 25px;
+                        line-height: 30px;
+                        color: #FFFFFF;
+                    }
+
+                    .c-desc-02 {
+                        font-family: 'Gilroy';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        /* identical to box height */
+
+
+                        color: #FFFFFF;
+                        opacity: 0.7;
+                    }
+                }
+            }
+
+            > :nth-child(5n) {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .c-container-03 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 30px;
+
+        .c-item-01 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 373px;
+            height: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.7);
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            /* identical to box height */
+
+            text-transform: uppercase;
+            color: #FFFFFF;
+            opacity: 0.7;
+            transition: all .2s ease;
+
+            &:hover {
+                opacity: 1;
+                border-color: #886E46;
+            }
+        }
+    }
+}
+    /* Common xs1, xs2 */
+    @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+
+        .section-07 {
+            padding-top: 105px;
+
+            .c-container-02 {
+                .c-item-02 {
+
+                    .c-unit-01 {
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+                        margin: 0 0 30px 0;
+
+                        img {
+                            width: 100%;
+                            height: 374px;
+                            object-fit: cover;
+                        }
+                    }
+
+                    > :nth-child(5n) {
+                        margin-right: 0;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+            .c-container-03 {
+               
+                .c-item-01 {
+                    width: 100%;
+                   
+                }
+            }
+        }
+    }
+    /* Common sm, md, lg */
+    @media all and (min-width: #{$mq-sm1 + "px"}) {
+    }

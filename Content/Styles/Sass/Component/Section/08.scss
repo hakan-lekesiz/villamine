@@ -1,0 +1,1787 @@
+﻿@import "../../Base/Colour.scss";
+@import "../../Base/Global.scss";
+
+.section-08 {
+    padding-bottom: 60px;
+
+    .c-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .c-column-01 {
+            width: 826px;
+            display: flex;
+            flex-wrap: wrap;
+
+            .c-container-01 {
+                margin-right: 10px;
+                width: 597px;
+                height: 705px;
+
+                .badget {
+                    position: absolute;
+                    top: 14px;
+                    left: 11px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 90px;
+                    height: 28px;
+                    background: #257B76;
+                    border-radius: 3px;
+                    z-index: 2;
+                    font-family: 'Gilroy';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 12px;
+                    line-height: 14px;
+                    color: #FFFFFF;
+
+                    svg {
+                        margin-right: 6px;
+                    }
+                }
+
+                .all-photos {
+                    position: absolute;
+                    bottom: 16px;
+                    right: 20px;
+                    width: 215px;
+                    height: 55px;
+                    background: rgba(25, 25, 25, 0.44);
+                    border: 1px solid rgba(255, 255, 255, 0.5);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    z-index: 2;
+                    font-family: 'Oriya MN';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                }
+
+                img {
+                    width: 597px;
+                    height: 705px;
+                    object-fit: cover;
+                }
+            }
+
+            .c-container-02 {
+                display: flex;
+                flex-direction: column;
+
+                a {
+                    margin-bottom: 15px;
+                    flex: 1;
+                }
+
+                img {
+                    width: 218px;
+                    height: 165px;
+                    object-fit: cover;
+                }
+
+                > :last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        .c-column-02 {
+            flex: 1;
+            margin-left: 38px;
+
+            .column-02-container {
+                height: 705px;
+                opacity: 1;
+                transition: opacity 0.4s 0s ease, height 0.2s 0s ease;
+
+                .c-container-01 {
+                    padding-bottom: 18px;
+                    border-bottom: 1px solid #393939;
+
+                    .c-item-01 {
+                        font-family: 'Oriya MN';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 35px;
+                        line-height: 43px;
+                        /* identical to box height */
+
+
+                        color: #FFFFFF;
+                        margin-bottom: 5px;
+                    }
+
+                    .c-item-02 {
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: center;
+
+                        .c-item-02-A {
+                            font-family: 'Gilroy';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 14px;
+                            /* identical to box height */
+
+
+                            color: #FFFFFF;
+                            margin-right: 16px;
+                        }
+
+                        .c-item-02-B {
+                            display: flex;
+                            align-items: center;
+                            margin-right: 6px;
+                            font-family: 'Gilroy';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 14px;
+                            /* identical to box height */
+
+
+                            color: #FFFFFF;
+
+                            svg {
+                                margin-right: 6px;
+                            }
+                        }
+                    }
+                }
+
+                .c-container-02 {
+                    height: 80px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-bottom: 1px solid #393939;
+
+                    .c-item-01 {
+                        display: flex;
+                        align-items: center;
+
+                        .c-item-01-A {
+                            display: flex;
+                            align-items: center;
+                            margin-right: 25px;
+                            font-family: 'Gilroy';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 19px;
+                            /* identical to box height */
+
+
+                            color: #FFFFFF;
+
+                            svg {
+                                margin-right: 15px;
+                            }
+                        }
+
+                        > :last-child {
+                            margin-right: 0;
+                        }
+                    }
+
+                    .c-item-02 {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+
+                .c-container-03 {
+                    height: 362px;
+                    padding-top: 16px;
+
+                    .init-content {
+                        display: flex;
+                        justify-content: space-between;
+                        flex-wrap: wrap;
+                        z-index: 1;
+
+
+                        .col-01, .col-02 {
+                            flex: 1;
+                            padding: 20px;
+                            background: #171717;
+                            border: 1px solid #393939;
+                        }
+
+                        .col-01 {
+                            margin-right: 14px;
+
+                            .col-01-container {
+                                margin-bottom: 20px;
+
+                                .c-item-01, .c-item-02 {
+                                    position: absolute;
+                                    top: 10px;
+                                    font-family: 'Gilroy';
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 12px;
+                                    line-height: 14px;
+                                    color: #FFFFFF;
+                                }
+
+                                .c-item-01 {
+                                    left: 12px;
+                                }
+
+                                .c-item-02 {
+                                    left: 90px;
+                                }
+
+                                .date-range-input {
+                                    width: 100%;
+                                    height: 55px;
+                                    padding: 20px 12px 0 12px;
+                                    border: 1px solid #393939;
+                                    font-family: 'Gilroy';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 13px;
+                                    line-height: 15px;
+                                    color: #FFFFFF;
+                                    background-color: transparent;
+                                }
+                            }
+
+                            .col-02-container {
+                                margin-bottom: 20px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                padding: 12px;
+
+                                .minus, .plus {
+                                    position: absolute;
+                                    width: 30px;
+                                    height: 30px;
+                                    background: #333333;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    cursor: pointer;
+
+                                    svg {
+                                        user-select: none;
+                                    }
+                                }
+
+                                .minus {
+                                    left: 12px;
+                                }
+
+                                .plus {
+                                    right: 12px;
+
+                                    .up {
+                                        position: absolute;
+                                        transform: rotate(90deg);
+                                    }
+                                }
+
+                                .person-input-wrapper {
+                                    display: flex;
+                                    align-items: center;
+
+                                    > span {
+                                        font-family: 'Gilroy';
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 13px;
+                                        line-height: 15px;
+                                        color: #FFFFFF;
+                                        display: flex;
+                                        flex: 1;
+                                    }
+                                }
+
+                                .person-input {
+                                    width: 15px;
+                                    height: 24px;
+                                    font-family: 'Gilroy';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 13px;
+                                    line-height: 15px;
+                                    color: #FFFFFF;
+                                    display: flex;
+                                    align-items: center;
+                                    background-color: transparent;
+                                    margin-right: 6px;
+                                }
+                            }
+
+
+                            .col-03-container {
+                                border: 1px solid #292929;
+                                height: 55px;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                padding: 0 14px;
+                                margin-bottom: 20px;
+
+                                .col-03-A {
+
+                                    .col-03-unit-01 {
+                                        font-family: 'Gilroy';
+                                        font-style: normal;
+                                        font-weight: 600;
+                                        font-size: 12px;
+                                        line-height: 14px;
+                                        color: #FFFFFF;
+                                        margin-bottom: 4px;
+                                    }
+
+                                    .col-03-unit-02 {
+                                        font-family: 'Gilroy';
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 13px;
+                                        line-height: 15px;
+                                        /* identical to box height */
+
+
+                                        color: #FFFFFF;
+                                    }
+                                }
+
+                                .col-03-B {
+                                    width: 72px;
+                                    height: 32px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    background: #333333;
+                                    font-family: 'Gilroy';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 15px;
+                                    line-height: 18px;
+                                    color: #FFFFFF;
+                                }
+                            }
+
+
+                            .col-04-container {
+                                display: flex;
+                                flex-wrap: wrap;
+                                align-items: center;
+                                justify-content: space-between;
+
+                                .col-04-A {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    background: #886E46;
+                                    border-radius: 1px;
+                                    height: 55px;
+                                    width: 70%;
+                                    font-family: 'Oriya MN';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 15px;
+                                    line-height: 18px;
+                                    color: #E5E5E5;
+                                    transition: all .2s ease;
+
+                                    &:hover {
+                                        background: #FFFFFF;
+                                        color: #000000;
+                                    }
+                                }
+
+                                .col-04-B {
+                                    display: flex;
+                                    width: calc(30% - 10px);
+                                    height: 55px;
+                                    align-items: center;
+                                    justify-content: center;
+                                    border: 1px solid #717171;
+                                    font-family: 'Oriya MN';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 15px;
+                                    line-height: 18px;
+                                    color: #717171;
+                                    transition: all .2s ease;
+
+                                    &:hover {
+                                        border-color: #886E46;
+                                        color: #FFFFFF;
+                                    }
+                                }
+                            }
+                        }
+
+                        .col-02 {
+                            padding: 20px;
+                            width: 50%;
+                            max-width: 300px;
+                            flex: none;
+
+                            .hasDatepicker {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+
+                                &:after {
+                                    content: "";
+                                    position: absolute;
+                                    top: 24px;
+                                    bottom: 0;
+                                    right: 0;
+                                    left: 0;
+                                    z-index: 4;
+                                }
+                            }
+
+                            .date-range-input {
+                                height: 0;
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                right: 0;
+                                width: 100%
+                            }
+                        }
+                    }
+
+                    .tab-content {
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        height: 0;
+                        top: 14px;
+                        opacity: 0;
+                        overflow: hidden;
+                        padding: 22px;
+                        background: #171717;
+                        border-top: 1px solid #393939;
+                        border-left: 1px solid #393939;
+                        border-right: 1px solid #393939;
+                        z-index: 0;
+
+                        .close-btn {
+                            position: absolute;
+                            top: 28px;
+                            right: 28px;
+                            display: flex;
+                            z-index: 4;
+
+                            svg {
+                                user-select: none;
+                            }
+                        }
+
+                        .c-content-01 {
+                            .c-desc-01 {
+                                width: 358px;
+                                font-family: 'Gilroy';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 15px;
+                                line-height: 18px;
+                                color: #FFFFFF;
+                                margin-bottom: 22px;
+                            }
+
+                            .c-desc-02 {
+                                width: 493px;
+                                font-family: 'Gilroy';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 16px;
+                                color: #FFFFFF;
+                                margin-bottom: 30px;
+                            }
+                        }
+
+                        .c-content-02 {
+                            padding: 52px 150px 0 62px;
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-between;
+
+                            .content-02-A {
+                                display: flex;
+                                align-items: center;
+                                width: 50%;
+                                margin-bottom: 30px;
+
+                                svg {
+                                    margin-right: 24px;
+                                }
+
+                                span {
+                                    max-width: 180px;
+                                    display: flex;
+                                    font-family: 'Gilroy';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                    line-height: 16px;
+                                    color: #FFFFFF;
+                                }
+                            }
+
+                            > :nth-last-child(-n+2) {
+                                margin-bottom: 0;
+                            }
+                        }
+
+                        .reservation-btn-cls{
+                            display:none;
+                         }
+                        &.active {
+                            height: 362px;
+                            overflow: auto;
+                            opacity: 1;
+                            z-index: 2;
+                        }
+                    }
+                }
+
+                .c-container-04 {
+                    height: 55px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0 26px;
+                    background: #171717;
+                    border: 1px solid #393939;
+
+
+                    a {
+                        display: flex;
+                        align-items: center;
+                        font-family: 'Gilroy';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        /* identical to box height */
+                        height: 100%;
+                        color: #FFFFFF;
+
+                        &.on {
+
+                            &:after {
+                                content: "";
+                                position: absolute;
+                                background: #886E46;
+                                width: 100%;
+                                height: 3px;
+                                bottom: -1px;
+                                left: 0;
+                                right: 0;
+                            }
+                        }
+                    }
+                }
+
+                .c-container-05 {
+                    height: 123px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-bottom: 1px solid #393939;
+
+                    .c-item-01 {
+                        display: flex;
+                        align-items: center;
+
+                        span {
+                            font-family: 'Gilroy';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #FFFFFF;
+                            max-width: 170px;
+                        }
+
+
+
+
+                        svg {
+                            margin-right: 12px;
+                            font-family: 'Gilroy';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+
+                &.close {
+                    opacity: 0;
+                    overflow: hidden;
+                    height: 0;
+                    transition: opacity .4s 0s ease, height .4s .4s ease;
+                }
+            }
+
+            .column-03-container {
+                opacity: 0;
+                overflow: hidden;
+                height: 0;
+                transition: opacity 0.4s 0s ease, height 0.4s 0s ease;
+
+                &.open {
+                    opacity: 1;
+                    height: 705px;
+                    transition: opacity .4s .8s ease, height 0s .8s ease;
+                }
+
+
+                .c-content {
+                    display: flex;
+                }
+
+                .c-container-01 {
+                    flex: 1;
+                    padding: 30px 22px;
+                    background: #000000;
+                    border: 1px solid #393939;
+
+                    .c-item-01 {
+
+                        .c-item-01-A {
+                            font-family: 'Oriya MN';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 35px;
+                            line-height: 43px;
+                            /* identical to box height */
+
+
+                            color: #FFFFFF;
+                            margin-bottom: 5px;
+                        }
+
+                        .c-item-01-B {
+                            font-family: 'Gilroy';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 14px;
+                            /* identical to box height */
+
+
+                            color: #FFFFFF;
+                        }
+                    }
+
+                    .c-item-02 {
+                        margin: 30px 0 24px 0;
+                        font-family: 'Oriya MN';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: #E5E5E5;
+                    }
+
+                    .c-item-03 {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 24px;
+
+                        .passing {
+                            position: absolute;
+                            left: calc(50% - 11px);
+                            z-index: 2;
+                            width: 22px;
+                            height: 22px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border-radius: 50%;
+                            background: #292929;
+                        }
+
+                        .c-item-03-A {
+                            flex: 1;
+                            height: 55px;
+                            border: 1px solid #292929;
+                            padding: 0 14px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+
+                            .c-unit-01 {
+                                font-family: 'Gilroy';
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 12px;
+                                line-height: 14px;
+                                color: #FFFFFF;
+                                margin-bottom: 4px;
+                            }
+
+                            .c-unit-02 {
+                                font-family: 'Gilroy';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 13px;
+                                line-height: 15px;
+                                /* identical to box height */
+
+
+                                color: #FFFFFF;
+                            }
+
+                            &.first {
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+
+                    .c-item-04 {
+                        border: 1px solid #292929;
+                        height: 55px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 0 14px;
+                        margin-bottom: 24px;
+
+                        .c-item-04-A {
+
+                            .c-unit-01 {
+                                font-family: 'Gilroy';
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 12px;
+                                line-height: 14px;
+                                color: #FFFFFF;
+                                margin-bottom: 4px;
+                            }
+
+                            .c-unit-02 {
+                                font-family: 'Gilroy';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 13px;
+                                line-height: 15px;
+                                /* identical to box height */
+
+
+                                color: #FFFFFF;
+                            }
+                        }
+
+                        .c-item-04-B {
+                            width: 72px;
+                            height: 32px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background: #333333;
+                            font-family: 'Gilroy';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 15px;
+                            line-height: 18px;
+                            color: #FFFFFF;
+                        }
+                    }
+
+                    .c-item-05 {
+                        margin-bottom: 24px;
+
+                        input {
+                            padding: 0 14px;
+                            width: 100%;
+                            height: 55px;
+                            font-family: 'Gilroy';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 12px;
+                            line-height: 14px;
+                            border: 1px solid #292929;
+                            color: #FFFFFF;
+                            background-color: transparent;
+                        }
+                    }
+
+                    .c-item-06 {
+                        .chk-A {
+                            margin-bottom: 12px;
+
+                            a {
+                                color: #886E46;
+                                padding-left: 5px;
+                            }
+                        }
+
+                        > :last-child {
+                            margin-bottom: 25px;
+                        }
+                    }
+
+                    .c-item-07 {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                        height: 55px;
+                        background: #886E46;
+                        border-radius: 1px;
+                        font-family: 'Oriya MN';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 18px;
+                        color: #E5E5E5;
+                    }
+                }
+
+                .c-container-02 {
+                    flex: 1;
+                    background: #171717;
+                    border-top: 1px solid #393939;
+                    border-bottom: 1px solid #393939;
+                    border-right: 1px solid #393939;
+                    padding-top: 126px;
+
+                    .c-item-01 {
+                        display: flex;
+                        position: absolute;
+                        top: 26px;
+                        right: 26px;
+                        z-index: 5;
+
+
+                        svg {
+                            pointer-events: none;
+                        }
+                    }
+
+                    .c-item-02 {
+                        font-family: 'Oriya MN';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: #E5E5E5;
+                        padding-left: 22px;
+                        margin-bottom: 24px;
+                    }
+
+                    .c-item-03 {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding: 0 22px;
+                        height: 52px;
+                        border-top: 1px solid #292929;
+                        border-bottom: 1px solid #292929;
+
+                        .c-item-03-A {
+                            font-family: 'Gilroy';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 16px;
+                            /* identical to box height */
+
+
+                            color: #FFFFFF;
+                        }
+
+                        .c-item-03-B {
+                            font-family: 'Gilroy';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 17px;
+                            text-align: right;
+                            color: #FFFFFF;
+                        }
+                    }
+
+                    .c-item-04 {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding: 0 22px;
+                        height: 52px;
+                        border-top: 1px solid #292929;
+                        border-bottom: 1px solid #292929;
+
+                        .c-item-04-A {
+                            font-family: 'Gilroy';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 14px;
+                            line-height: 17px;
+                            /* identical to box height */
+
+
+                            color: #FFFFFF;
+                        }
+
+                        .c-item-04-B {
+                            font-family: 'Gilroy';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 15px;
+                            line-height: 18px;
+                            text-align: right;
+                            color: #FFFFFF;
+                        }
+                    }
+
+                    .c-item-05 {
+                        height: 52px;
+                        padding: 0 22px;
+                        display: flex;
+                        align-items: center;
+                        font-family: 'Gilroy';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 14px;
+                        /* identical to box height */
+
+
+                        color: #FFFFFF;
+                        border-top: 1px solid #292929;
+                        border-bottom: 1px solid #292929;
+
+                        svg {
+                            margin-right: 4px;
+                        }
+                    }
+
+                    .c-item-06 {
+                        padding: 84px 22px 0 22px;
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        justify-content: center;
+
+                        .c-item-06-A {
+                            font-family: 'Gilroy';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 13px;
+                            line-height: 19px;
+                            text-align: center;
+                            color: #FFFFFF;
+                        }
+
+                        .c-item-06-B {
+                            font-family: 'Gilroy';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 13px;
+                            line-height: 19px;
+                            text-align: center;
+                            color: #FFFFFF;
+
+
+                            p {
+                                opacity: .8;
+                            }
+
+                            span {
+                                text-decoration: underline;
+                                font-weight: 700;
+                            }
+                        }
+                    }
+                }
+
+                .alert-modal {
+                    position: absolute;
+                    width: 452px;
+                    height: 365px;
+                    background: #FFFFFF;
+                    left: calc(50% - 226px);
+                    padding-top: 64px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    z-index: 4;
+                    top: -1100px;
+                    opacity: 0;
+                    transition: all .4s ease-in;
+
+                    .close-icon {
+                        position: absolute;
+                        top: 19px;
+                        right: 22px;
+                    }
+
+                    .c-modal-02 {
+                        font-family: 'Oriya MN';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: #000000;
+                        margin: 20px 0 10px 0;
+                    }
+
+                    .c-modal-03 {
+                        font-family: 'Gilroy';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #000000;
+
+                        span {
+                            font-weight: 700;
+                        }
+                    }
+
+                    .c-modal-04 {
+                        display: flex;
+                        justify-content: space-between;
+                        height: 70px;
+                        margin-top: auto;
+                        width: 100%;
+
+                        .print-btn, .view-btn {
+                            flex: 1;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-family: 'Gilroy';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 18px;
+                            line-height: 21px;
+                            color: #FFFFFF;
+                            background: #886E46;
+                        }
+
+                        .view-btn {
+                            background: #69AE5E;
+                        }
+                    }
+                }
+
+                &.on {
+                    .c-content {
+                        filter: blur(5px);
+                    }
+
+
+                    .alert-modal {
+                        opacity: 1;
+                        top: calc(50% - 183px);
+                    }
+                }
+            }
+        }
+    }
+}
+    /* Common xs1, xs2 */
+    @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+
+        .section-08 .c-wrapper .c-column-02 .column-03-container .c-container-02 .c-item-01 {
+            display: none;
+        }
+
+        .section-08 {
+
+            .c-wrapper {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                .c-column-01 {
+                    overflow: auto;
+                    width: calc(100% + 40px);
+                    margin-left: -20px;
+                    padding: 0 20px;
+                    flex-wrap: nowrap;
+                    flex: auto;
+
+                    .c-container-01 {
+                        margin-right: 5px;
+                        width: 281px;
+                        height: auto;
+                        flex-shrink: 0;
+
+                        .all-photos {
+                            display: none;
+                        }
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                            object-fit: cover;
+                        }
+                    }
+
+                    .c-container-02 {
+                        display: flex;
+                        flex-direction: row;
+
+                        a {
+                            margin-bottom: 0;
+                            margin-right: 5px;
+                            width: 281px;
+                            flex-shrink: 0;
+                        }
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                            object-fit: cover;
+                        }
+
+                        > :last-child {
+                            margin-bottom: 0;
+                            margin-right: 0;
+                        }
+                    }
+                }
+
+                .c-column-02 {
+                    margin: 0;
+                    margin-top: 16px;
+                    width: 100%;
+                    flex: none;
+
+                    .column-02-container {
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+                        height: auto;
+
+                        .c-container-01 {
+                            order: 1;
+
+
+                            .c-item-01 {
+                                font-size: 30px;
+                                line-height: 36px;
+                            }
+
+                            .c-item-02 {
+
+                                .c-item-02-A {
+                                }
+
+                                .c-item-02-B {
+                                }
+                            }
+                        }
+
+                        .c-container-02 {
+                            order: 2;
+                            height: 60px;
+                            border-bottom: 0;
+
+                            .c-item-01 {
+
+
+                                .c-item-01-A {
+                                    font-size: 13px;
+                                    line-height: 15px;
+                                    margin-right: 12px;
+
+                                    svg {
+                                        width: 20px;
+                                    }
+                                }
+
+                                > :last-child {
+                                }
+                            }
+
+                            .c-item-02 {
+                            }
+                        }
+
+                        .c-container-03 {
+                            order: 4;
+                            height: 640px;
+
+                            .tab-content.active {
+                                height: 639px;
+                            }
+
+                            .tab-content {
+                                width: calc(100% + 40px);
+                                margin-left: -20px;
+                                border: none;
+                                border-top: 1px solid #171717;
+
+                                .c-content-01 {
+                                    .c-desc-01 {
+                                        width: 269px
+                                    }
+
+                                    .c-desc-02 {
+                                        width: 300px;
+                                    }
+                                }
+
+                                .c-content-02 {
+                                    padding: 0;
+                                    padding-right: 40px;
+                                }
+
+                                .reservation-btn-cls {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    width: calc(100% + 40px);
+                                    margin-left: -20px;
+                                    background: #886E46;
+                                    border-radius: 1px;
+                                    height: 55px;
+                                    font-family: "Oriya MN";
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 15px;
+                                    line-height: 18px;
+                                    color: #E5E5E5;
+                                    position: absolute;
+                                    bottom: -71px;
+                                    top: auto;
+                                    right: auto;
+                                }
+                            }
+
+                            .init-content {
+                                flex-direction: column;
+
+
+                                .col-01, .col-02 {
+                                    width: 100%;
+                                    flex: none;
+                                    border: none;
+                                    border-bottom: 1px solid #393939;
+                                    padding: 0 0 20px 0;
+                                }
+
+                                .col-01 {
+                                    margin: 0;
+
+                                    .col-01-container {
+
+                                        .c-item-01, .c-item-02 {
+                                        }
+
+                                        .c-item-01 {
+                                        }
+
+                                        .c-item-02 {
+                                        }
+
+                                        .date-range-input {
+                                        }
+                                    }
+
+                                    .col-02-container {
+
+                                        .minus, .plus {
+
+
+                                            svg {
+                                            }
+                                        }
+
+                                        .minus {
+                                        }
+
+                                        .plus {
+
+                                            .up {
+                                            }
+                                        }
+
+                                        .person-input-wrapper {
+
+
+                                            > span {
+                                            }
+                                        }
+
+                                        .person-input {
+                                        }
+                                    }
+
+
+                                    .col-03-container {
+
+                                        .col-03-A {
+
+                                            .col-03-unit-01 {
+                                            }
+
+                                            .col-03-unit-02 {
+                                            }
+                                        }
+
+                                        .col-03-B {
+                                        }
+                                    }
+
+
+                                    .col-04-container {
+
+
+                                        .col-04-A {
+                                        }
+
+                                        .col-04-B {
+                                        }
+                                    }
+                                }
+
+                                .col-02 {
+                                    max-width: none;
+                                    border-top: 0;
+                                    padding-top: 20px;
+                                    padding-bottom: 0;
+
+                                    .date-range-input {
+                                    }
+                                }
+                            }
+                        }
+
+                        .c-container-04 {
+                            order: 3;
+                            padding: 0;
+                            width: calc(100% + 40px);
+                            overflow: auto;
+                            margin-left: -20px;
+                            padding: 0 20px;
+                            border: none;
+                            border-bottom: 1px solid #393939;
+                            border-top: 1px solid #393939;
+
+                            a {
+                                flex-shrink: 0;
+                                margin-right: 45px;
+
+                                &.on {
+
+                                    &:after {
+                                    }
+                                }
+                            }
+
+                            > :last-child {
+                                margin-right: 0;
+                            }
+                        }
+
+                        .c-container-05 {
+                            order: 5;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            height: auto;
+                            padding-top: 40px;
+
+                            .c-item-01 {
+                                margin: 0;
+                                margin-bottom: 40px;
+
+                                span {
+                                }
+
+
+
+
+                                svg {
+                                }
+                            }
+                        }
+                    }
+
+                    .column-03-container {
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+
+                        &.open {
+                            height: auto;
+                        }
+
+                        .c-content {
+                            flex-wrap: wrap;
+                        }
+
+                        .c-container-01 {
+                            flex: auto;
+                            width: 100%;
+
+                            .c-item-01 {
+
+                                .c-item-01-A {
+                                    font-family: 'Oriya MN';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 35px;
+                                    line-height: 43px;
+                                    /* identical to box height */
+
+
+                                    color: #FFFFFF;
+                                    margin-bottom: 5px;
+                                }
+
+                                .c-item-01-B {
+                                    font-family: 'Gilroy';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 12px;
+                                    line-height: 14px;
+                                    /* identical to box height */
+
+
+                                    color: #FFFFFF;
+                                }
+                            }
+
+                            .c-item-02 {
+                                margin: 30px 0 24px 0;
+                                font-family: 'Oriya MN';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 20px;
+                                line-height: 24px;
+                                color: #E5E5E5;
+                            }
+
+                            .c-item-03 {
+                                display: flex;
+                                align-items: center;
+                                margin-bottom: 24px;
+
+                                .passing {
+                                    position: absolute;
+                                    left: calc(50% - 11px);
+                                    z-index: 2;
+                                    width: 22px;
+                                    height: 22px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    border-radius: 50%;
+                                    background: #292929;
+                                }
+
+                                .c-item-03-A {
+                                    flex: 1;
+                                    height: 55px;
+                                    border: 1px solid #292929;
+                                    padding: 0 14px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+
+                                    .c-unit-01 {
+                                        font-family: 'Gilroy';
+                                        font-style: normal;
+                                        font-weight: 600;
+                                        font-size: 12px;
+                                        line-height: 14px;
+                                        color: #FFFFFF;
+                                        margin-bottom: 4px;
+                                    }
+
+                                    .c-unit-02 {
+                                        font-family: 'Gilroy';
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 13px;
+                                        line-height: 15px;
+                                        /* identical to box height */
+
+
+                                        color: #FFFFFF;
+                                    }
+
+                                    &.first {
+                                        margin-right: 10px;
+                                    }
+                                }
+                            }
+
+                            .c-item-04 {
+                                border: 1px solid #292929;
+                                height: 55px;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                padding: 0 14px;
+                                margin-bottom: 24px;
+
+                                .c-item-04-A {
+
+                                    .c-unit-01 {
+                                        font-family: 'Gilroy';
+                                        font-style: normal;
+                                        font-weight: 600;
+                                        font-size: 12px;
+                                        line-height: 14px;
+                                        color: #FFFFFF;
+                                        margin-bottom: 4px;
+                                    }
+
+                                    .c-unit-02 {
+                                        font-family: 'Gilroy';
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 13px;
+                                        line-height: 15px;
+                                        /* identical to box height */
+
+
+                                        color: #FFFFFF;
+                                    }
+                                }
+
+                                .c-item-04-B {
+                                    width: 72px;
+                                    height: 32px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    background: #333333;
+                                    font-family: 'Gilroy';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 15px;
+                                    line-height: 18px;
+                                    color: #FFFFFF;
+                                }
+                            }
+
+                            .c-item-05 {
+                                margin-bottom: 24px;
+
+                                input {
+                                    padding: 0 14px;
+                                    width: 100%;
+                                    height: 55px;
+                                    font-family: 'Gilroy';
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 12px;
+                                    line-height: 14px;
+                                    border: 1px solid #292929;
+                                    color: #FFFFFF;
+                                    background-color: transparent;
+                                }
+                            }
+
+                            .c-item-06 {
+                                .chk-A {
+                                    margin-bottom: 12px;
+                                }
+
+                                > :last-child {
+                                    margin-bottom: 25px;
+                                }
+                            }
+
+                            .c-item-07 {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 100%;
+                                height: 55px;
+                                background: #886E46;
+                                border-radius: 1px;
+                                font-family: 'Oriya MN';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 15px;
+                                line-height: 18px;
+                                color: #E5E5E5;
+                            }
+                        }
+
+                        .c-container-02 {
+                            flex: auto;
+                            width: 100%;
+                            padding: 30px 0;
+                            background: #171717;
+                            border-left: 1px solid #393939;
+                            margin-top: 10px;
+                        }
+
+                        .alert-modal {
+                            width: 100%;
+                            left: 0;
+
+                            .close-icon {
+                                position: absolute;
+                                top: 19px;
+                                right: 22px;
+                            }
+
+                            .c-modal-02 {
+                                font-family: 'Oriya MN';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 20px;
+                                line-height: 24px;
+                                color: #000000;
+                                margin: 20px 0 10px 0;
+                            }
+
+                            .c-modal-03 {
+                                font-family: 'Gilroy';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 18px;
+                                line-height: 21px;
+                                color: #000000;
+
+                                span {
+                                    font-weight: 700;
+                                }
+                            }
+
+                            .c-modal-04 {
+                                display: flex;
+                                justify-content: space-between;
+                                height: 70px;
+                                margin-top: auto;
+                                width: 100%;
+
+                                .print-btn, .view-btn {
+                                    flex: 1;
+                                    height: 100%;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    font-family: 'Gilroy';
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 18px;
+                                    line-height: 21px;
+                                    color: #FFFFFF;
+                                    background: #886E46;
+                                }
+
+                                .view-btn {
+                                    background: #69AE5E;
+                                }
+                            }
+                        }
+
+
+                        &.on {
+                            .c-content {
+                                filter: blur(5px);
+                            }
+
+
+                            .alert-modal {
+                                opacity: 1;
+                                top: calc(50% - 183px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        }
+    /* Common sm, md, lg */
+    @media all and (min-width: #{$mq-sm1 + "px"}) {
+        .section-08 .c-wrapper .c-column-01 .c-container-02 a {
+            &.hide-for-desktop {
+                display: none;
+            }
+        }
+    }
+
+    .carousel__button[disabled] {
+        display: none !important;
+    }
+
+    .ui-widget-content {
+        border: none !important;
+        background: none !important;
+        font-family: 'Gilroy' !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 13px !important;
+        line-height: 15px !important;
+        color: #FFFFFF !important;
+    }
+
+    .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+        background: none !important;
+        font-weight: bold !important;
+        color: #fff !important;
+        border: none !important;
+        font-family: 'Gilroy' !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 13px !important;
+        line-height: 15px !important;
+    }
+
+    .ui-widget-header {
+        border: none !important;
+        background: #191919 !important;
+        font-family: 'Gilroy' !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 13px !important;
+        line-height: 15px !important;
+        color: #FFFFFF !important;
+    }
+
+    .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+        background: #333333 !important;
+    }
+
+    .ui-icon, .ui-widget-content .ui-icon {
+    }
+
+    .ui-datepicker .ui-datepicker-next span {
+        transform: rotate(90deg) !important;
+    }
+
+    .ui-datepicker .ui-datepicker-prev span {
+        transform: rotate(270deg) !important;
+    }
+
+    .ui-icon-circle-triangle-w {
+        background-position: 0 0 !important;
+    }
+
+    .ui-icon-circle-triangle-e {
+        background-position: 0 0 !important;
+    }
+
+.ui-datepicker td {
+    padding: 9px !important;
+}
+.ui-datepicker {
+    width: 21em !important;
+}

@@ -1,0 +1,142 @@
+body {
+  background: #191919;
+}
+
+.comp-section-25 .c-wrapper .c-container-01 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 66px 0;
+}
+.comp-section-25 .c-wrapper .c-container-01 .c-item-01 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 53px;
+  text-align: center;
+  color: #11675A;
+}
+.comp-section-25 .c-wrapper .c-container-01 .c-item-03 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 53px;
+  text-align: center;
+  color: #BD9A5F;
+  margin: 10px 0;
+}
+.comp-section-25 .c-wrapper .c-container-01 .c-item-02 {
+  max-width: 611px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  color: #80837D;
+}
+.comp-section-25 .c-wrapper .c-container-02 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.comp-section-25 .c-wrapper .c-container-02 .c-item-01 {
+  width: calc(50% - 6px);
+  overflow: hidden;
+  margin: 0 12px 32px 0;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 19px rgba(165, 165, 165, 0.21);
+  padding-bottom: 40px;
+}
+.comp-section-25 .c-wrapper .c-container-02 .c-item-01 .c-item-01-A {
+  width: 100%;
+}
+.comp-section-25 .c-wrapper .c-container-02 .c-item-01 .c-item-01-A img {
+  width: 100%;
+}
+.comp-section-25 .c-wrapper .c-container-02 .c-item-01 .c-item-01-E {
+  height: 200px;
+  background: #fff;
+  padding-top: 20px;
+}
+.comp-section-25 .c-wrapper .c-container-02 .c-item-01 .c-item-01-E .c-item-01-B {
+  margin: 0 40px 20px 40px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5em;
+  line-height: 53px;
+  color: #015D4F;
+}
+.comp-section-25 .c-wrapper .c-container-02 .c-item-01 .c-item-01-E .c-item-01-C {
+  margin: 0 40px 0 40px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.937em;
+  line-height: 19px;
+  color: #80837D;
+  width: 469px;
+  height: 95px;
+  overflow: hidden;
+}
+.comp-section-25 .c-wrapper .c-container-02 .c-item-01 .c-item-01-D {
+  margin-left: 40px;
+  width: 211px;
+  height: 39px;
+  background: #BD9A5F;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.812em;
+  line-height: 17px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.comp-section-25 .c-wrapper .c-container-02 > :nth-child(2n) {
+  margin-right: 0;
+}
+
+@media all and (max-width: 767px) {
+  .comp-section-25 .c-wrapper .c-container-01 {
+    padding-top: 20px;
+  }
+  .comp-section-25 .c-wrapper .c-container-01 .c-item-02 {
+    font-size: 0.875em;
+    line-height: 18px;
+  }
+  .comp-section-25 .c-wrapper .c-container-02 .c-item-01 {
+    width: 100%;
+    margin: 0 0 32px 0;
+  }
+  .comp-section-25 .c-wrapper .c-container-02 .c-item-01 .c-item-01-E {
+    margin-top: 0;
+    height: auto;
+    padding: 0;
+  }
+  .comp-section-25 .c-wrapper .c-container-02 .c-item-01 .c-item-01-E .c-item-01-B {
+    font-size: 1.562em;
+    line-height: 33px;
+    margin: 28px 20px 12px 36px;
+  }
+  .comp-section-25 .c-wrapper .c-container-02 .c-item-01 .c-item-01-E .c-item-01-C {
+    margin: 0 20px 12px 36px;
+    font-size: 0.937em;
+    line-height: 19px;
+    width: 315px;
+  }
+}
+@media all and (min-width: 768px) {
+  .comp-section-25 .c-wrapper {
+    padding: 0 40px;
+  }
+}
+
+/*# sourceMappingURL=section25.css.map */

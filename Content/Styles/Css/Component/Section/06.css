@@ -1,0 +1,533 @@
+.section-06 img {
+  width: 100%;
+  height: 501px;
+  object-fit: cover;
+}
+.section-06 .c-container-02:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.47);
+  z-index: 4;
+}
+.section-06 > .c-container-01 {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  top: 50%;
+  z-index: 5;
+  right: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section-06 > .c-container-01 .c-item-01 {
+  font-family: "Oriya MN";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 43px;
+  /* identical to box height */
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+.section-06 > .c-container-01 .c-item-02 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+.section-06 .c-wrapper .c-container-03 {
+  padding: 30px 0;
+  margin-bottom: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.section-06 .c-wrapper .c-container-03 .header-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.section-06 .c-wrapper .c-container-03 .header-container .c-header-01 {
+  margin-top: 30px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+  text-align: center;
+  color: #FFFFFF;
+}
+.section-06 .c-wrapper .c-container-03 .header-container .c-header-01:not(:last-child) {
+  margin-right: 16px;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .select2-container {
+  width: 100% !important;
+  border: 1px solid #8C8C8C !important;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .select2-container:after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  height: 7px;
+  width: 13px;
+  background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2213%22%20height%3D%227%22%20viewBox%3D%220%200%2013%207%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cpath%20d%3D%22M0.267679%200.267679C0.439126%200.0962844%200.671626%200%200.914052%200C1.15648%200%201.38898%200.0962844%201.56042%200.267679L6.08595%204.7932L10.6115%200.267679C10.7839%200.101142%2011.0148%200.00899045%2011.2546%200.0110735C11.4943%200.0131565%2011.7236%200.109307%2011.8931%200.278816C12.0626%200.448325%2012.1587%200.677629%2012.1608%200.917342C12.1629%201.15705%2012.0708%201.388%2011.9042%201.56042L6.73232%206.73232C6.56087%206.90372%206.32837%207%206.08595%207C5.84352%207%205.61102%206.90372%205.43958%206.73232L0.267679%201.56042C0.0962843%201.38898%200%201.15648%200%200.914052C0%200.671626%200.0962843%200.439126%200.267679%200.267679Z%22%20fill%3D%22white%22%2F%3E%20%3C%2Fsvg%3E%20");
+  background-repeat: no-repeat;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .select2-container .selection {
+  z-index: 33;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .select2-container.select2-container--focus:after {
+  transform: rotate(180deg);
+}
+.section-06 .c-wrapper .c-container-03 .action-container .select2-container--default .select2-selection--multiple {
+  background-color: rgba(0, 0, 0, 0.22) !important;
+  border: none !important;
+  border-radius: 0 !important !important;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .select2-selection__rendered {
+  color: #fff !important;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .select2-selection__rendered li {
+  background-color: #191919 !important;
+  margin: 0 5px 5px 0 !important;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .select2-container .select2-selection--multiple .select2-selection__rendered {
+  padding: 0 !important;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .select2-container .select2-selection--multiple {
+  min-height: 55px !important;
+  line-height: 34px !important;
+  padding: 5px;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .select2-search__field {
+  font-family: "Gilroy" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 13px !important;
+  line-height: 15px !important;
+  /* identical to box height */
+  color: #FFFFFF !important;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .select2-container--default .select2-selection--multiple .select2-selection__arrow {
+  top: 13.5px !important;
+  right: 20px;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .select2-container--default .select2-selection--multiple .select2-selection__arrow b {
+  border-color: #fff transparent transparent transparent !important;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .select2-container--default.select2-container--open .select2-selection--multiple .select2-selection__arrow b {
+  border-color: transparent transparent #fff transparent !important;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 {
+  display: flex;
+  align-items: center;
+  margin-right: 36px;
+  flex: 1;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 > .c-item-01 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+  margin-right: 20px;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .right-side .c-item-label-grp {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  right: 0;
+  width: 175px;
+  display: flex;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .right-side .c-item-label-grp .lbl-01 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .right-side .c-item-label-grp > :first-child {
+  margin-right: 22px;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .right-side .date-range-input {
+  width: 230px;
+  background: rgba(0, 0, 0, 0.22);
+  height: 55px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+  padding: 12px 20px 0 20px;
+  border: 1px solid #8C8C8C;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .person-count {
+  background: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 55px;
+  padding: 0 14px 0 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #8C8C8C;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .person-count .minus, .section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .person-count .plus {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+  padding: 5px;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .person-count .person-input-wrapper {
+  display: flex;
+  align-items: center;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .person-count .person-input-wrapper > span {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #FFFFFF;
+  display: flex;
+  flex: 1;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .person-count .person-input {
+  width: 20px;
+  height: 24px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  margin-right: 6px;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .check-avlty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  font-family: "Oriya MN";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 0 22px;
+  height: 55px;
+  margin-right: 42px;
+  transition: all 0.2s ease;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .check-avlty svg {
+  user-select: none;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .check-avlty:hover {
+  background-color: #fff;
+  color: #000000;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .check-avlty:hover svg path {
+  fill: #000;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .check-avlty.scnd {
+  margin-right: 0;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .check-avlty.scnd.active {
+  background-color: #fff;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .check-avlty.scnd.active svg path {
+  fill: #000;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01.checking {
+  flex: 2;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .filter-container > :last-child {
+  margin-right: 0;
+  width: 2;
+}
+.section-06 .c-wrapper .c-container-03 .action-container .show-or-hide-filter {
+  display: none;
+}
+
+/* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .section-06 img {
+    height: 398px;
+  }
+  .section-06.villa-listing img {
+    height: 748px;
+  }
+  .section-06.on img {
+    transition: all 0.2s ease-in-out;
+    height: 775px;
+  }
+  .section-06.off img {
+    transition: all 0.2s ease-in-out;
+    height: 398px;
+  }
+  .section-06 > .c-container-01 {
+    top: 163px;
+    width: calc(100% - 40px);
+  }
+  .section-06 > .c-container-01 .c-item-01 {
+    font-size: 27px;
+    line-height: 30px;
+  }
+  .section-06 > .c-container-01 .c-item-02 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .section-06 .c-wrapper {
+    position: absolute;
+    bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    z-index: 4;
+  }
+  .section-06 .c-wrapper .c-container-03 {
+    padding: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+  }
+  .section-06 .c-wrapper .c-container-03 .header-container {
+    position: absolute;
+    bottom: -125px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .section-06 .c-wrapper .c-container-03 .header-container .c-header-01 {
+    margin-bottom: 24px;
+    margin-top: 0;
+    margin-right: 0;
+  }
+  .section-06 .c-wrapper .c-container-03 .header-container > :not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .select2-container {
+    border: 1px solid #8C8C8C;
+    width: 100% !important;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .select2-container--default .select2-selection--multiple {
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 0 !important !important;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .select2-selection__rendered {
+    color: #fff !important;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .select2-selection__rendered li {
+    background-color: #191919 !important;
+    margin: 0 !important;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .select2-container .select2-selection--multiple .select2-selection__rendered {
+    padding: 0 !important;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .select2-container .select2-selection--multiple {
+    min-height: 55px !important;
+    line-height: 34px;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .select2-search__field {
+    font-family: "Gilroy" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    /* identical to box height */
+    color: #FFFFFF !important;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .select2-container--default .select2-selection--multiple .select2-selection__arrow {
+    top: 13.5px !important;
+    right: 20px;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .select2-container--default .select2-selection--multiple .select2-selection__arrow b {
+    border-color: #fff transparent transparent transparent !important;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .select2-container--default.select2-container--open .select2-selection--multiple .select2-selection__arrow b {
+    border-color: transparent transparent #fff transparent !important;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .show-or-hide-filter {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: left;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .filter-container {
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 20px;
+    transition: all 0.2s ease-in-out;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 > .c-item-01 {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-right: 20px;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .right-side {
+    width: 100%;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .right-side .c-item-label-grp {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    right: 0;
+    width: 175px;
+    display: flex;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .right-side .c-item-label-grp .lbl-01 {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .right-side .c-item-label-grp > :first-child {
+    margin-right: 22px;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .right-side .date-range-input {
+    width: 100%;
+    background: transparent;
+    height: 55px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding: 12px 20px 0 20px;
+    border: 1px solid #8C8C8C;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .person-count {
+    background: transparent;
+    width: 100%;
+    height: 55px;
+    padding: 0 14px 0 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #8C8C8C;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .person-count .minus, .section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .person-count .plus {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #D9D9D9;
+    padding: 5px;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .person-count .minus:after, .section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .person-count .plus:after {
+    content: "";
+    top: 0;
+    left: -4px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(223, 223, 223, 0.33);
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .person-count .person-input-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .person-count .person-input-wrapper > span {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    display: flex;
+    flex: 1;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .person-count .person-input {
+    width: 15px;
+    height: 24px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    margin-right: 6px;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .check-avlty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    font-family: "Oriya MN";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 0 22px;
+    height: 55px;
+    margin-right: auto;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .filter-container .c-container-01 .check-avlty:not(.scnd) {
+    width: calc(100% - 85px);
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .filter-container > :last-child {
+    margin-bottom: 0;
+  }
+  .section-06 .c-wrapper .c-container-03 .action-container .filter-container.off {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+  }
+}
+/* Common sm, md, lg */
+
+/*# sourceMappingURL=06.css.map */

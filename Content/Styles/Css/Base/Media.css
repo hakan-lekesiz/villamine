@@ -1,0 +1,58 @@
+#mq-info {
+  height: 0px !important;
+}
+
+#mq-values {
+  height: 0px !important;
+}
+#mq-values #mq-xs1 {
+  width: 0px;
+}
+#mq-values #mq-xs2 {
+  width: 420px;
+}
+#mq-values #mq-sm1 {
+  width: 768px;
+}
+#mq-values #mq-sm2 {
+  width: 1024px;
+}
+#mq-values #mq-md {
+  width: 1550px;
+}
+#mq-values #mq-lg {
+  width: 1600px;
+}
+
+@media all and (max-width: 419px) {
+  #mq-info {
+    width: 0px;
+  }
+}
+@media all and (min-width: 420px) and (max-width: 767px) {
+  #mq-info {
+    width: 420px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  #mq-info {
+    width: 768px;
+  }
+}
+@media all and (min-width: 1024px) and (max-width: 1549px) {
+  #mq-info {
+    width: 1024px;
+  }
+}
+@media all and (min-width: 1550px) and (max-width: 1599px) {
+  #mq-info {
+    width: 1550px;
+  }
+}
+@media all and (min-width: 1600px) {
+  #mq-info {
+    width: 1600px;
+  }
+}
+
+/*# sourceMappingURL=Media.css.map */

@@ -1,0 +1,111 @@
+body {
+  background: #191919;
+}
+
+.comp-section-34 {
+  margin-bottom: 70px;
+}
+.comp-section-34 .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1065px;
+}
+.comp-section-34 .gallery [data-fancybox] {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 340px;
+}
+.comp-section-34 .gallery [data-fancybox] img {
+  width: 100%;
+}
+.comp-section-34 .gallery .c-container-03 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.comp-section-34 .gallery .c-container-03 .c-item-01 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+.comp-section-34 .gallery .c-container-03 .c-item-02 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #015D4F;
+}
+.comp-section-34 .gallery .c-container-01 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 720px;
+}
+.comp-section-34 .gallery .c-container-01 video {
+  width: calc(100% - 20px);
+  height: 473px;
+  object-fit: cover;
+}
+.comp-section-34 .gallery .c-container-02 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.comp-section-34 .gallery .c-container-02 a {
+  margin-right: 0;
+}
+.comp-section-34 .gallery .c-container-02 > :last-child {
+  margin-bottom: 0;
+}
+.comp-section-34 .gallery .c-container-04 {
+  display: flex;
+  flex-direction: column;
+}
+.comp-section-34 .gallery .c-container-04 a {
+  margin-right: 0;
+}
+
+@media all and (max-width: 767px) {
+  .comp-section-34 .gallery [data-fancybox] {
+    margin-right: 0;
+    margin-bottom: 12px;
+    width: auto;
+  }
+  .comp-section-34 .gallery [data-fancybox] img {
+    width: 100%;
+  }
+  .comp-section-34 .gallery .c-container-01 a {
+    width: 100%;
+    margin-right: 0;
+  }
+  .comp-section-34 .gallery .c-container-01 > :first-child img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .comp-section-34 .gallery .c-container-01 > :last-child img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .comp-section-34 .gallery .c-container-01 video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 12px;
+  }
+  .comp-section-34 .gallery .c-container-02 img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .comp-section-34 .gallery .c-container-02 > a {
+    margin-right: 0;
+  }
+}
+
+/*# sourceMappingURL=section34.css.map */

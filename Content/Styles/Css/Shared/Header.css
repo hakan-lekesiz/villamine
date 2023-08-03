@@ -1,0 +1,26 @@
+/* Error: Undefined mixin.
+ *     ,
+ * 152 | /                 @include placeholder {
+ * 153 | |                     font-family: 'Gilroy';
+ * 154 | |                     font-style: normal;
+ * 155 | |                     font-weight: 400;
+ * 156 | |                     font-size: 12px;
+ * 157 | |                     line-height: 14px;
+ * 158 | |                     /* identical to box height *∕
+ * 159 | | 
+ * 160 | | 
+ * 161 | |                     color: #F0F4F3;
+ * 162 | \                 }
+ *     '
+ *   Sass\Shared\Header.scss 152:17  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a     \2577 \a 152 \2502  \250c                  @include placeholder {\a 153 \2502  \2502                      font-family: 'Gilroy';\a 154 \2502  \2502                      font-style: normal;\a 155 \2502  \2502                      font-weight: 400;\a 156 \2502  \2502                      font-size: 12px;\a 157 \2502  \2502                      line-height: 14px;\a 158 \2502  \2502                      /* identical to box height */\a 159 \2502  \2502  \a 160 \2502  \2502  \a 161 \2502  \2502                      color: #F0F4F3;\a 162 \2502  \2514                  }\a     \2575 \a   Sass\\Shared\\Header.scss 152:17  root stylesheet";
+}

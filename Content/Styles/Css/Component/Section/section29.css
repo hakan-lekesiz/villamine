@@ -1,0 +1,162 @@
+body {
+  background: #191919;
+}
+
+.comp-section-29 .c-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 196px;
+}
+.comp-section-29 .c-wrapper .c-container-01 {
+  margin-bottom: 40px;
+}
+.comp-section-29 .c-wrapper .c-container-01 .c-item-01 {
+  margin-bottom: 18px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.875em;
+  line-height: 40px;
+  /* identical to box height */
+  text-align: center;
+  color: #11675A;
+}
+.comp-section-29 .c-wrapper .c-container-01 .c-item-02 {
+  max-width: 925px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.125em;
+  line-height: 23px;
+  text-align: center;
+  color: #80837D;
+}
+.comp-section-29 .c-wrapper .c-container-02 {
+  margin-bottom: 64px;
+  max-width: 1110px;
+}
+.comp-section-29 .c-wrapper .c-container-02 .c-item-01 {
+  margin-bottom: 32px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.875em;
+  line-height: 40px;
+  /* identical to box height */
+  text-align: center;
+  color: #BD9A5F;
+}
+.comp-section-29 .c-wrapper .c-container-02 .c-item-02 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.comp-section-29 .c-wrapper .c-container-02 .c-item-02 .c-unit-01 {
+  display: flex;
+  margin-right: 36px;
+  margin-bottom: 20px;
+}
+.comp-section-29 .c-wrapper .c-container-02 .c-item-02 .c-unit-01 a {
+  width: 174px;
+  display: flex;
+}
+.comp-section-29 .c-wrapper .c-container-02 .c-item-02 .c-unit-01 img {
+  width: 100%;
+}
+.comp-section-29 .c-wrapper .c-container-02 .c-item-02 > :nth-child(5n) {
+  margin-right: 0;
+}
+.comp-section-29 .c-wrapper .c-container-03 {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.comp-section-29 .c-wrapper .c-container-03 .c-item-01 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.comp-section-29 .c-wrapper .c-container-03 .c-item-02 {
+  margin: 18px 0;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.875em;
+  line-height: 40px;
+  /* identical to box height */
+  text-align: center;
+  color: #BD9A5F;
+}
+.comp-section-29 .c-wrapper .c-container-03 .c-item-03 {
+  max-width: 1005px;
+  margin-bottom: 30px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.125em;
+  line-height: 23px;
+  text-align: center;
+  color: #80837D;
+}
+.comp-section-29 .c-wrapper .c-container-03 .c-item-04 {
+  display: flex;
+}
+.comp-section-29 .c-wrapper .c-container-03 .c-item-05 {
+  display: none;
+  width: calc(100% + 40px);
+}
+.comp-section-29 .c-wrapper .c-container-03 .c-item-05 img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+@media all and (max-width: 767px) {
+  .comp-section-29 .c-wrapper {
+    padding-top: 40px;
+  }
+  .comp-section-29 .c-wrapper .c-container-01 {
+    margin-bottom: 20px;
+  }
+  .comp-section-29 .c-wrapper .c-container-01 .c-item-01 {
+    font-size: 1.25em;
+    line-height: 27px;
+  }
+  .comp-section-29 .c-wrapper .c-container-01 .c-item-02 {
+    font-size: 0.812em;
+    line-height: 17px;
+  }
+  .comp-section-29 .c-wrapper .c-container-02 {
+    margin-bottom: 8px;
+  }
+  .comp-section-29 .c-wrapper .c-container-02 .c-item-02 .c-unit-01 {
+    width: calc(50% - 10px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .comp-section-29 .c-wrapper .c-container-02 .c-item-02 > :nth-child(2n) {
+    margin-right: 0;
+  }
+  .comp-section-29 .c-wrapper .c-container-02 .c-item-02 > :nth-child(5n) {
+    margin-right: 20px;
+  }
+  .comp-section-29 .c-wrapper .c-container-03 .c-item-01 {
+    display: none;
+  }
+  .comp-section-29 .c-wrapper .c-container-03 .c-item-02 {
+    font-size: 1.562em;
+    line-height: 33px;
+  }
+  .comp-section-29 .c-wrapper .c-container-03 .c-item-03 {
+    font-size: 0.812em;
+    line-height: 17px;
+  }
+  .comp-section-29 .c-wrapper .c-container-03 .c-item-04 {
+    display: none;
+  }
+  .comp-section-29 .c-wrapper .c-container-03 .c-item-05 {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=section29.css.map */

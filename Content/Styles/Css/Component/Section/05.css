@@ -1,0 +1,227 @@
+.section-05 {
+  padding-bottom: 90px;
+}
+.section-05 .c-wrapper .c-container-01 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-05 .c-wrapper .c-container-01 .c-item-01 {
+  font-family: "Oriya MN";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+.section-05 .c-wrapper .c-container-01 .c-item-02 {
+  margin: 20px 0;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+.section-05 .c-wrapper .c-container-01 .c-item-03 {
+  width: 768px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.section-05 .c-wrapper .c-container-02 {
+  display: flex;
+  align-items: center;
+  height: 55px;
+  margin-top: 26px;
+  justify-content: center;
+}
+.section-05 .c-wrapper .c-container-02 .c-item-01 {
+  width: 371px;
+  height: 55px;
+  padding-left: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #FFFFFF;
+  background-color: transparent;
+}
+.section-05 .c-wrapper .c-container-02 .c-item-01 ::-webkit-input-placeholder {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+.section-05 .c-wrapper .c-container-02 .c-item-01 :-moz-placeholder {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+.section-05 .c-wrapper .c-container-02 .c-item-01 ::-moz-placeholder {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+.section-05 .c-wrapper .c-container-02 .c-item-01 :-ms-input-placeholder {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+.section-05 .c-wrapper .c-container-02 .c-item-02 {
+  width: 255px;
+  height: 55px;
+  background: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #191919;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-05 .c-wrapper .c-container-03 {
+  margin-top: 100px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 36px;
+  display: flex;
+  justify-content: center;
+}
+.section-05 .c-wrapper .c-container-03 .c-item-01 {
+  font-family: "Oriya MN";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+.section-05 .c-wrapper .c-container-04 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 44px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.section-05 .c-wrapper .c-container-04 .c-item-01 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 130px;
+}
+.section-05 .c-wrapper .c-container-04 .c-item-01 span {
+  width: 117px;
+  display: flex;
+  margin-top: 22px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.section-05 .c-wrapper .c-container-04 > :last-child {
+  margin-right: 0;
+}
+.section-05 .c-wrapper .c-container-05 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 32px;
+}
+.section-05 .c-wrapper .c-container-05 .mob {
+  display: none;
+}
+.section-05 .c-wrapper .c-container-05 .c-item-01 {
+  margin-right: 12px;
+}
+.section-05 .c-wrapper .c-container-05 > :last-child {
+  margin-right: 0;
+}
+
+/* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .section-05 {
+    padding-bottom: 40px;
+  }
+  .section-05 .c-wrapper .c-container-01 .c-item-01 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .section-05 .c-wrapper .c-container-01 .c-item-02 {
+    margin: 20px 0;
+    font-size: 15px;
+    line-height: 17px;
+    text-align: center;
+  }
+  .section-05 .c-wrapper .c-container-01 .c-item-03 {
+    width: calc(100% - 40px);
+    margin-left: -20px;
+  }
+  .section-05 .c-wrapper .c-container-02 .c-item-01 {
+    width: 70%;
+  }
+  .section-05 .c-wrapper .c-container-02 .c-item-02 {
+    width: 30%;
+  }
+  .section-05 .c-wrapper .c-container-03 {
+    margin-top: 50px;
+  }
+  .section-05 .c-wrapper .c-container-03 .c-item-01 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .section-05 .c-wrapper .c-container-04 .c-item-01 {
+    margin-right: 20px;
+    width: calc(30% - 12px);
+  }
+  .section-05 .c-wrapper .c-container-04 .c-item-01 span {
+    width: auto;
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .section-05 .c-wrapper .c-container-04 > :last-child {
+    margin-right: 0;
+  }
+  .section-05 .c-wrapper .c-container-05 .mob {
+    display: block;
+  }
+  .section-05 .c-wrapper .c-container-05 .desk {
+    display: none;
+  }
+  .section-05 .c-wrapper .c-container-05 .c-item-01 {
+    margin-right: 6px;
+  }
+}
+/* Common sm, md, lg */
+
+/*# sourceMappingURL=05.css.map */

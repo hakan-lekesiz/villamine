@@ -1,0 +1,312 @@
+body {
+  background: #191919;
+}
+
+.comp-section-35 {
+  padding-bottom: 54px;
+}
+.comp-section-35 .c-wrapper {
+  max-width: 937px;
+  padding: 60px 37px 54px 37px;
+  box-shadow: 0px 0px 19px rgba(165, 165, 165, 0.21);
+}
+.comp-section-35 .c-wrapper .c-container-01 {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 1.875em;
+  line-height: 40px;
+  color: #11675A;
+  width: 685px;
+  margin: 0 auto;
+  text-align: center;
+}
+.comp-section-35 .c-wrapper .c-container-02 {
+  width: 685px;
+  margin: 32px auto;
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 1.25em;
+  line-height: 27px;
+  text-align: center;
+  color: #11675A;
+}
+.comp-section-35 .c-wrapper .c-container-03 {
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 19px;
+  text-align: center;
+  color: #80837D;
+  margin: 0 0 32px 0;
+}
+.comp-section-35 .c-wrapper .c-container-04 {
+  width: 522px;
+  font-family: "Space Grotesk";
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 19px;
+  text-align: center;
+  color: #80837D;
+  margin: 56px auto 39px auto;
+}
+.comp-section-35 .c-wrapper hr {
+  flex-basis: auto;
+  width: 100%;
+  background: rgba(128, 131, 125, 0.36);
+  height: 1px;
+}
+.comp-section-35 .c-wrapper .c-container-05 {
+  display: flex;
+  margin-top: 45px;
+  margin-bottom: 33px;
+}
+.comp-section-35 .c-wrapper .c-container-05 .c-item-02 {
+  width: 289px;
+  height: 219px;
+  background: #F8F4ED;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 39px;
+}
+.comp-section-35 .c-wrapper .c-container-05 .c-item-03 {
+  margin-top: 22px;
+  width: 454px;
+}
+.comp-section-35 .c-wrapper .c-container-05 .c-item-03 .c-item-03-A {
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.5625em;
+  line-height: 33px;
+  color: #11675A;
+  margin-bottom: 14px;
+}
+.comp-section-35 .c-wrapper .c-container-05 .c-item-03 .c-item-03-B {
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 19px;
+  color: #80837D;
+  margin-bottom: 14px;
+}
+.comp-section-35 .c-wrapper .c-container-06 {
+  margin-bottom: 45px;
+  display: flex;
+  justify-content: flex-end;
+}
+.comp-section-35 .c-wrapper .c-container-06 .c-item-03 {
+  margin-top: 22px;
+  margin-right: 37px;
+}
+.comp-section-35 .c-wrapper .c-container-06 .c-item-03 .c-item-03-A {
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.5625em;
+  line-height: 33px;
+  color: #11675A;
+  margin-bottom: 14px;
+  text-align: right;
+}
+.comp-section-35 .c-wrapper .c-container-06 .c-item-03 .c-item-03-B {
+  font-family: "Space Grotesk";
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 19px;
+  text-align: right;
+  color: #80837D;
+  margin-bottom: 14px;
+  width: 454px;
+}
+.comp-section-35 .c-wrapper .c-container-06 .c-item-02 img {
+  width: 289px;
+  height: 219px;
+  object-fit: cover;
+}
+.comp-section-35 .c-wrapper .c-container-07 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 39px;
+}
+.comp-section-35 .c-wrapper .c-container-07 .c-item-01 {
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.875em;
+  line-height: 40px;
+  color: #11675A;
+  margin-bottom: 14px;
+  text-align: center;
+}
+.comp-section-35 .c-wrapper .c-container-07 .c-item-02 {
+  font-weight: 700;
+  font-size: 0.8125em;
+  line-height: 17px;
+  letter-spacing: 0.15em;
+  color: #015D4F;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+.comp-section-35 .c-wrapper .c-container-07 .c-item-02 svg {
+  margin-left: 13px;
+}
+
+@media all and (max-width: 767px) {
+  .comp-section-35 {
+    padding-bottom: 73px;
+  }
+  .comp-section-35 .c-wrapper {
+    max-width: calc(100% - 40px);
+    padding: 33px 0 0 0;
+    box-shadow: none;
+  }
+  .comp-section-35 .c-wrapper .c-container-01 {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 27px;
+    color: #11675A;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .comp-section-35 .c-wrapper .c-container-02 {
+    width: 100%;
+    margin: 32px auto;
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 1.05em;
+    line-height: 23px;
+    text-align: center;
+    color: #11675A;
+  }
+  .comp-section-35 .c-wrapper .c-container-03 {
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 19px;
+    text-align: center;
+    color: #80837D;
+    margin: 0 0 32px 0;
+  }
+  .comp-section-35 .c-wrapper .c-container-04 {
+    width: 100%;
+    font-family: "Space Grotesk";
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 19px;
+    text-align: center;
+    color: #80837D;
+    margin: 56px auto 32px auto;
+  }
+  .comp-section-35 .c-wrapper hr {
+    flex-basis: auto;
+    width: 100%;
+    background: rgba(128, 131, 125, 0.36);
+    height: 1px;
+  }
+  .comp-section-35 .c-wrapper .c-container-05 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .comp-section-35 .c-wrapper .c-container-05 .c-item-02 {
+    width: 100%;
+    height: 219px;
+    background: #F8F4ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+  }
+  .comp-section-35 .c-wrapper .c-container-05 .c-item-03 {
+    margin-top: 25px;
+    width: 100%;
+  }
+  .comp-section-35 .c-wrapper .c-container-05 .c-item-03 .c-item-03-A {
+    font-family: "Playfair Display";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.25em;
+    line-height: 27px;
+    color: #11675A;
+    margin-bottom: 14px;
+  }
+  .comp-section-35 .c-wrapper .c-container-05 .c-item-03 .c-item-03-B {
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 19px;
+    color: #80837D;
+    margin-bottom: 14px;
+  }
+  .comp-section-35 .c-wrapper .c-container-06 {
+    margin-bottom: 32px;
+    margin-top: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+  }
+  .comp-section-35 .c-wrapper .c-container-06 .c-item-03 {
+    margin-top: 0;
+    margin-right: 0;
+  }
+  .comp-section-35 .c-wrapper .c-container-06 .c-item-03 .c-item-03-A {
+    font-family: "Playfair Display";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.25em;
+    line-height: 27px;
+    color: #11675A;
+    margin-bottom: 20px;
+  }
+  .comp-section-35 .c-wrapper .c-container-06 .c-item-03 .c-item-03-B {
+    font-family: "Space Grotesk";
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 19px;
+    text-align: right;
+    color: #80837D;
+    width: 100%;
+  }
+  .comp-section-35 .c-wrapper .c-container-06 .c-item-02 {
+    margin-bottom: 32px;
+  }
+  .comp-section-35 .c-wrapper .c-container-06 .c-item-02 img {
+    width: 100%;
+    height: 219px;
+    object-fit: cover;
+  }
+  .comp-section-35 .c-wrapper .c-container-07 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 47px;
+  }
+  .comp-section-35 .c-wrapper .c-container-07 .c-item-01 {
+    font-family: "Playfair Display";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.5625em;
+    line-height: 33px;
+    color: #11675A;
+    margin-bottom: 21px;
+    text-align: center;
+  }
+  .comp-section-35 .c-wrapper .c-container-07 .c-item-02 {
+    font-weight: 700;
+    font-size: 0.8125em;
+    line-height: 17px;
+    letter-spacing: 0.15em;
+    color: #015D4F;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .comp-section-35 .c-wrapper .c-container-07 .c-item-02 svg {
+    margin-left: 13px;
+  }
+}
+
+/*# sourceMappingURL=section35.css.map */

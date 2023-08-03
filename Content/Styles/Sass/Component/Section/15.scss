@@ -1,0 +1,171 @@
+﻿@import "../../Base/Colour.scss";
+@import "../../Base/Global.scss";
+
+
+.section-15 {
+    opacity: 1;
+    height: auto;
+    transition: all .2s ease-in-out;
+    margin-bottom:50px;
+
+    &.off {
+        opacity: 0;
+        height: 0;
+        overflow:hidden;
+        transition: all .2s ease-in-out;
+    }
+}
+/* Common xs1, xs2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .section-15 {
+        width: 100%;
+        height: 800px;
+
+        .gm-style {
+            .gm-style-iw-c {
+                border-radius: 0;
+                padding: 0;
+
+                .gm-style-iw-d {
+                    padding: 0;
+                    overflow: visible !important;
+                }
+
+                > button {
+                    display: none !important;
+                }
+            }
+        }
+
+        .info-box {
+
+
+            .c-unit-01 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                flex-wrap: wrap;
+                padding-right: 13px;
+                height: 55px;
+                width: 232px;
+
+                .c-unit-01-A {
+                    width: 63px;
+                    height: 100%;
+                    object-fit: cover;
+                    margin-right: 9px;
+                }
+
+                .c-unit-01-B {
+                    padding: 0 9px 0 0;
+                    margin-bottom: 5px;
+                    font-family: 'Gilroy';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 1em;
+                    line-height: 19px;
+                    color: #191919;
+                    width: calc(100% - 72px);
+                    -webkit-line-clamp: 1;
+                    overflow: hidden;
+                    -webkit-box-orient: vertical;
+                    display: -webkit-box;
+                }
+
+                .c-unit-01-C {
+                    width: calc(100% - 72px);
+                    padding: 0 9px 0 0;
+                    font-family: 'Gilroy';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 0.75em;
+                    line-height: 14px;
+                    color: #000000;
+                    opacity: 0.7;
+                    -webkit-line-clamp: 1;
+                    overflow: hidden;
+                    -webkit-box-orient: vertical;
+                    display: -webkit-box;
+                }
+            }
+        }
+    }
+}
+/* Common sm, md, lg */
+@media all and (min-width: #{$mq-sm1 + "px"}) {
+    .section-15 {
+        width: 100%;
+        height: 800px;
+
+        .gm-style {
+            .gm-style-iw-c {
+                border-radius: 0;
+                padding: 0;
+
+                .gm-style-iw-d {
+                    padding: 0;
+                    overflow: visible !important;
+                }
+
+                > button {
+                    display: none !important;
+                }
+            }
+        }
+
+        .info-box {
+
+
+            .c-unit-01 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                flex-wrap: wrap;
+                padding-right: 13px;
+                height: 55px;
+                width: 232px;
+
+                .c-unit-01-A {
+                    width: 63px;
+                    height: 100%;
+                    object-fit: cover;
+                    margin-right: 9px;
+                }
+
+                .c-unit-01-B {
+                    padding: 0 9px 0 0;
+                    margin-bottom: 5px;
+                    font-family: 'Gilroy';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 1em;
+                    line-height: 19px;
+                    color: #191919;
+                    width: calc(100% - 72px);
+                    -webkit-line-clamp: 1;
+                    overflow: hidden;
+                    -webkit-box-orient: vertical;
+                    display: -webkit-box;
+                }
+
+                .c-unit-01-C {
+                    width: calc(100% - 72px);
+                    padding: 0 9px 0 0;
+                    font-family: 'Gilroy';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 0.75em;
+                    line-height: 14px;
+                    color: #000000;
+                    opacity: 0.7;
+                    -webkit-line-clamp: 1;
+                    overflow: hidden;
+                    -webkit-box-orient: vertical;
+                    display: -webkit-box;
+                }
+            }
+        }
+    }
+}

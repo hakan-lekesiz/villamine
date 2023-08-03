@@ -1,0 +1,66 @@
+@import "../Base/Global.scss";
+@import "../Base/Colour.scss";
+
+
+#sticky-menu {
+    position: fixed;
+    top: 244px;
+    right: 0;
+    z-index: 200;
+    width: 48px;
+
+    > .c-item-01, > .c-item-02 {
+        width: 48px;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        svg {
+            margin-bottom: 16px;
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 0.8125em;
+            line-height: 17px;
+            letter-spacing: 0.15em;
+            transform: rotate(-90deg);
+            position: absolute;
+        }
+    }
+
+    > .c-item-01 {
+        background: #FFFFFF;
+        height: 112px;
+
+        span {
+            color: #BD9A5F;
+            bottom: 33px;
+            left: 4px;
+        }
+    }
+
+
+    > .c-item-02 {
+        background: #BD9A5F;
+        height: 173px;
+        padding-left: 4px;
+
+        span {
+            color: #FFFFFF;
+            bottom: 67px;
+        }
+    }
+}
+
+
+@media all and (max-width: #{$mq-sm1 + "px"}) {
+    #sticky-menu{
+        top:182px;
+    }
+}
+
+
+@media all and (min-width: #{$mq-sm1 + "px"}) {
+}

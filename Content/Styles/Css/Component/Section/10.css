@@ -1,0 +1,102 @@
+/* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .section-10 .c-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 17px 0 0 0;
+  }
+  .section-10 .c-wrapper .c-item {
+    width: 100%;
+    background: #FFFFFF;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .section-10 .c-wrapper .c-item .c-item-A {
+    width: 100%;
+    height: 345px;
+    object-fit: cover;
+  }
+  .section-10 .c-wrapper .c-item .c-item-B {
+    padding: 35px 56px 33px 37px;
+  }
+  .section-10 .c-wrapper .c-item .c-item-B .c-item-B-01 {
+    font-family: "Oriya MN";
+    font-weight: 700;
+    font-size: 1.5625em;
+    line-height: 30px;
+    color: #191919;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+  }
+  .section-10 .c-wrapper .c-item .c-item-B .c-item-B-02 {
+    font-family: "Gilroy";
+    font-weight: 400;
+    font-size: 0.9375em;
+    line-height: 17px;
+    color: #7E7E7E;
+    margin: 16px 0;
+  }
+  .section-10 .c-wrapper .c-item .c-item-B .c-item-B-03 {
+    display: none;
+  }
+}
+/* Common sm, md, lg */
+@media all and (min-width: 768px) {
+  .section-10 .c-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0 0 0;
+  }
+  .section-10 .c-wrapper .c-item {
+    width: 485px;
+    background: #FFFFFF;
+    display: block;
+    margin-bottom: 50px;
+  }
+  .section-10 .c-wrapper .c-item:not(:nth-child(3n)) {
+    margin-right: 39px;
+  }
+  .section-10 .c-wrapper .c-item .c-item-A {
+    width: 100%;
+    height: 345px;
+    object-fit: cover;
+  }
+  .section-10 .c-wrapper .c-item .c-item-B {
+    padding: 35px 40px;
+  }
+  .section-10 .c-wrapper .c-item .c-item-B .c-item-B-01 {
+    font-family: "Oriya MN";
+    font-weight: 700;
+    font-size: 1.5625em;
+    line-height: 30px;
+    color: #191919;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+  }
+  .section-10 .c-wrapper .c-item .c-item-B .c-item-B-02 {
+    font-family: "Gilroy";
+    font-weight: 400;
+    font-size: 0.9375em;
+    line-height: 17px;
+    color: #7E7E7E;
+    margin: 16px 0;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    height: 34px;
+  }
+  .section-10 .c-wrapper .c-item .c-item-B .c-item-B-03 {
+    font-family: "Gilroy";
+    font-weight: 400;
+    font-size: 0.9375em;
+    line-height: 17px;
+    color: #7E7E7E;
+  }
+}
+
+/*# sourceMappingURL=10.css.map */
